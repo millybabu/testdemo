@@ -9,6 +9,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
 public class TestAllLinks {
+	public void login() {
+		System.out.println("inside login");
+	}
 
 	public static void main(String[] args) throws InterruptedException{
 		ChromeOptions options = new ChromeOptions();
